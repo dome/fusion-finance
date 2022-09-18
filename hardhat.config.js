@@ -16,6 +16,11 @@ module.exports = {
       accounts: [process.env.PRIVATE_KEY],
       chainId: 5,
     },
+    arbitrum: {
+      url: process.env.ARBITRUM_RPC,
+      account: [process.env.PRIVATE_KEY],
+      chainId: 42161,
+    },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
